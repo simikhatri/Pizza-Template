@@ -1,0 +1,72 @@
+@media (max-width: 991px){
+    
+    .text-content{
+        width: 100%;
+    }
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navigation-wrap {
+      text-align: center;
+      background-color: white;
+    }
+    .top-banner{
+        padding: 6.375rem 0 6.375rem ;
+    }
+    .menu-cont{
+        flex-direction: column;
+    }
+    .menu-cont .card{
+        flex-direction: column;
+    }
+
+    /* testimonial */
+    .testimonial-section .carousel-caption p{
+        /* font-size: 0.9rem;
+        line-height: 1.1625rem;
+        padding: 0.375rem 0 0.275rem; */
+        padding: 0;
+     }
+    
+}
+@media (max-width: 767px){
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+    .about-section .text-sec{
+        /* padding: 4rem; */
+        padding-left: 0.12rem;
+        text-align: center;
+    }
+    .about-section{
+       
+        padding: 1rem;
+    }
+    .food-type ul li{
+        font-size: 0.9rem;
+    }
+    
+    .food-type ul li i{
+        margin-right: 5px;
+        font-size: 1.09rem;
+      
+    }
+
+
+    .testimonial-section .carousel-caption p{
+        font-size: 0.9rem;
+        line-height: 1.1625rem;
+        padding: 0.375rem 0 0.275rem;
+     }
+     .carousel-item h4{
+        font-size: 0.9rem;
+        font-weight: 600;
+     }
+    /* .top-banner{
+        padding: 10.375rem 0 9.375rem ;
+    } */
+}
